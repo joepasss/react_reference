@@ -4,7 +4,9 @@
   "description": "react-router-dom with react using webpack and babel",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "build": "npm run type-check && webpack --mode production",
+    "start": "webpack-dev-server --open --mode development",
+    "type-check": "tsc"
   },
   "author": "joepasss",
   "license": "ISC",
@@ -17,6 +19,7 @@
     "@types/react-dom": "^18.0.6",
     "babel-loader": "^8.2.5",
     "css-loader": "^6.7.1",
+    "html-webpack-plugin": "^5.5.0",
     "sass-loader": "^13.0.2",
     "source-map-loader": "^4.0.0",
     "style-loader": "^3.3.1",
