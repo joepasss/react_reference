@@ -1,47 +1,49 @@
-## React reference
+# React reference
 
 ---
 
-1.  Setup React App using Webpack & babel
-    a. depandencies
+### 1. Setup React App using Webpack & babel
 
-    1. babel
+&nbsp;
+a. depandencies
 
-       - @babel/core
-       - @babel/preset-env
-       - @babel/preset-react
-       - @babel/preset-typescript
-         &nbsp;
+1.  babel
 
-    2. webpack
+    - @babel/core
+    - @babel/preset-env
+    - @babel/preset-react
+    - @babel/preset-typescript
+      &nbsp;
 
-       - webpack
-       - webpack-cli
-       - webpack-dev-server
-         &nbsp;
+2.  webpack
 
-    3. react
+    - webpack
+    - webpack-cli
+    - webpack-dev-server
+      &nbsp;
 
-       - react
-       - react-dom
-       - @types/react
-       - @types/react-dom
-         &nbsp;
+3.  react
 
-    4. webpack-loader
+    - react
+    - react-dom
+    - @types/react
+    - @types/react-dom
+      &nbsp;
 
-       - babel-loader
-       - style-loader
-       - css-loader
-       - sass-loader
-         &nbsp;
+4.  webpack-loader
 
-    5. webpack-plugin
+    - babel-loader
+    - style-loader
+    - css-loader
+    - sass-loader
+      &nbsp;
 
-       - html-webpack-plugin
-         &nbsp;
+5.  webpack-plugin
 
-    6. etc
+    - html-webpack-plugin
+      &nbsp;
 
-       - sass
-         &nbsp;
+6.  etc
+
+    - sass
+      &nbsp;
